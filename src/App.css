@@ -23,6 +23,64 @@
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.tab {
+  color: #908e8e;
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 11px;
+  text-transform: uppercase;
+  padding: 25px 10px;
+}
+
+.tab:hover {
+  border-bottom: solid 5px #df2025;
+  border-radius: 0;
+}
+
+.topNav {
+  float: right;
+}
+
+#logo {
+  height: 40px;
+  margin: 20px;
+  display: inline-block;
+}
+
+th {
+  color: white;
+  background-color: black;
+}
+
+.specs:nth-child(even) {
+  background-color: #C5EAFF;
+}
+
+tr:nth-child(odd) {
+  background-color: #D8D8D8
+}
+
+td, th {
+  padding: 2px 5px;
+}
+
+table {
+  margin: 20px;
+}
+
+td {
+  border: solid 1px black;
+}
+
+th {
+  border-right: solid 1px black;
 }
