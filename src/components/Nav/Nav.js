@@ -2,14 +2,12 @@ import React from "react";
 import Button from "../Button";
 
 const Nav = props => (
-  <div className="topNav">
-    <Button>About</Button>
-    <Button>Contact Us</Button>
-    <Button>Services Offered</Button>
-    <Button>Referral Parties</Button>
-    <Button>Related News</Button>
-    <Button>FAQ</Button>
-    <Button>Presentation</Button>
+  <div className="topNav navbar-collapse">
+    <Button onClick={props.homeButton}>Home</Button>
+    <Button onClick={props.techButton}>Technical Facts</Button>
+    <Button onClick={props.faqButton}>FAQ</Button>
+    <Button>Photo Gallery</Button>
+    <Button>Video Gallery</Button>
   </div>
 );
 
