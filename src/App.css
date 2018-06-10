@@ -110,7 +110,8 @@ th {
 .homesignup {
   margin: 40px;
   text-align: center;
-  
+  min-width: 200px;
+
 }
 
 .btn.btn-home {
@@ -152,9 +153,7 @@ body {
   font-weight: 900;
 }
 
-.user {
-  min-width: 285px;
-}
+
 
 #mainLeft {
   margin-left: 100px;
@@ -200,4 +199,24 @@ body {
 
 #navcontainer ul li {
   display: inline;
+}
+
+#navcontainer {
+  float: right !important;
+}
+
+#btn1, #btn2, #btn3, #btn4, #btn5 {
+  padding: 5px !important;
+  border-radius: 0;
+  min-width: 80px !important;
+}
+
+#burger {
+  margin-right: 80px;
+  font-size: 15px;
+  float: right !important;
+}
+
+#mobNav {
+  float: right !important;
 }

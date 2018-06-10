@@ -7,13 +7,13 @@ const Main = props => (
       <section>
         <div className="page_content">
           <Row>
-            <Col size="md-6">
+            <Col size="md-8">
               <h2 className="mob_center">
                 We’ve transformed article thread inspection from minutes to
                 seconds.
               </h2>
             </Col>
-            <Col size="md-6">
+            <Col size="md-4">
               <div className="homesignup">
                 <h3>
                   Sign up to receive our free downloadable LOTIS QXC whitepaper.
@@ -24,7 +24,7 @@ const Main = props => (
                       type="text"
                       placeholder="NAME"
                       name="name"
-                      className="form-control"
+                      className="form-control user"
                       required
                     />
                   </div>
@@ -33,7 +33,7 @@ const Main = props => (
                       type="email"
                       placeholder="EMAIL"
                       name="email"
-                      className="form-control"
+                      className="form-control user"
                       required
                     />
                   </div>
