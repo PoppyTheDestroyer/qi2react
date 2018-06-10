@@ -87,27 +87,23 @@ class App extends Component {
 
   render() {
     return (
-      
-        <div>
-          <header>
-            
-              
-                <img
-                  src={require("./Assets/images/logo.png")}
-                  alt="logo"
-                  id="logo"
-                />
-             
-                <div className="topNav">{this.renderNav()}</div>
-           
-          </header>
-          <this.state.page
-            specButton={this.specButton}
-            techButton={this.techButton}
-            homeButton={this.homeButton}
-          />
-        </div>
-     
+      <div>
+        <header>
+          <a href="/">
+            <img
+              src={require("./Assets/images/logo.png")}
+              alt="logo"
+              id="logo"
+            />
+          </a>
+          <div className="topNav">{this.renderNav()}</div>
+        </header>
+        <this.state.page
+          specButton={this.specButton}
+          techButton={this.techButton}
+          homeButton={this.homeButton}
+        />
+      </div>
     );
   }
 }
