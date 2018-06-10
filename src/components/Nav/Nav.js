@@ -3,11 +3,29 @@ import Button from "../Button";
 
 const Nav = props => (
   <div className="topNav navbar-collapse">
-    <Button onClick={props.homeButton}>Home</Button>
-    <Button onClick={props.techButton}>Technical Facts</Button>
-    <Button onClick={props.faqButton}>FAQ</Button>
-    <Button>Photo Gallery</Button>
-    <Button>Video Gallery</Button>
+    <div id="navcontainer">
+      <ul>
+        <li>
+          {" "}
+          <Button onClick={props.homeButton}>Home</Button>
+        </li>
+        <li>
+          {" "}
+          <Button onClick={props.techButton}>Technical Facts</Button>
+        </li>
+        <li>
+          {" "}
+          <Button onClick={props.faqButton}>FAQ</Button>
+        </li>
+        <li>
+          <Button>Photo Gallery</Button>
+        </li>
+        <li>
+          {" "}
+          <Button>Video Gallery</Button>
+        </li>
+      </ul>
+    </div>
   </div>
 );
 

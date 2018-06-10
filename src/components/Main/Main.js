@@ -7,38 +7,42 @@ const Main = props => (
       <section>
         <div className="page_content">
           <Row>
-            <Col size="md-7">
-              <h2 class="mob_center">
+            <Col size="md-6">
+              <h2 className="mob_center">
                 We’ve transformed article thread inspection from minutes to
                 seconds.
               </h2>
             </Col>
-            <Col size="md-5">
-              <div class="homesignup">
+            <Col size="md-6">
+              <div className="homesignup">
                 <h3>
                   Sign up to receive our free downloadable LOTIS QXC whitepaper.
                 </h3>
                 <form method="post">
-                  <div class="form-group">
+                  <div className="form-group">
                     <input
                       type="text"
                       placeholder="NAME"
                       name="name"
-                      class="form-control"
+                      className="form-control"
                       required
                     />
                   </div>
-                  <div class="form-group">
+                  <div className="form-group">
                     <input
                       type="email"
                       placeholder="EMAIL"
                       name="email"
-                      class="form-control"
+                      className="form-control"
                       required
                     />
                   </div>
-                  <div class="form-group">
-                    <input type="submit" value="SUBMIT" class="btn btn-home " />
+                  <div className="form-group">
+                    <input
+                      type="submit"
+                      value="SUBMIT"
+                      className="btn btn-home "
+                    />
                   </div>
                 </form>
               </div>

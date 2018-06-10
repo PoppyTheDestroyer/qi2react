@@ -109,6 +109,8 @@ th {
 }
 .homesignup {
   margin: 40px;
+  text-align: center;
+  
 }
 
 .btn.btn-home {
@@ -186,12 +188,16 @@ body {
   margin-left: 20px;
   font-family: proxima-nova, sans-serif !important;
   font-size: 15px;
-  font-weight: 900
+  font-weight: 900;
 }
 
 #backBtn2 {
   margin-left: 20px;
   font-family: proxima-nova, sans-serif !important;
   font-size: 15px;
-  font-weight: 900
+  font-weight: 900;
+}
+
+#navcontainer ul li {
+  display: inline;
 }
