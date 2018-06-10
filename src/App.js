@@ -3,6 +3,7 @@ import React, { Component } from "react";
 // import Button from "./components/Button";
 import Nav from "./components/Nav";
 import Spec from "./components/SpecTable";
+import Meas from "./components/MeasureTable";
 import FAQ from "./components/FAQ";
 import Home from "./Pages/Home";
 import "./App.css";
@@ -28,6 +29,13 @@ class App extends Component {
     });
   };
 
+  specButton = event => {
+    event.preventDefault();
+    this.setState({
+      page: Meas
+    });
+  };
+
   faqButton = event => {
     event.preventDefault();
     this.setState({
@@ -46,7 +54,11 @@ class App extends Component {
             faqButton={this.faqButton}
           />
         </header>
-        <this.state.page />
+        <this.state.page
+          specButton={this.specButton}
+          techButton={this.techButton}
+          homeButton={this.homeButton}
+        />
       </div>
     );
   }

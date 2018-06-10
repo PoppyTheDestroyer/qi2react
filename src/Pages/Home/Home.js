@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Main from "../../components/Main";
-import { Col, Row, Container } from "../../components/Grid";
+import { Container } from "../../components/Grid";
 
 class Home extends Component {
   constructor() {

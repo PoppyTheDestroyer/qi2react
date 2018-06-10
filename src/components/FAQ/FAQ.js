@@ -1,7 +1,9 @@
 import React from "react";
+import Button from "../Button";
 
 const FAQ = props => (
   <div>
+          <Button id="backBtn2" onClick={props.homeButton}><i className="fa fa-caret-left backBtn"></i> Back</Button>
     <table>
       <thead>
         <tr>

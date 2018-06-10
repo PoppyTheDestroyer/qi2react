@@ -157,3 +157,41 @@ body {
 #mainLeft {
   margin-left: 100px;
 }
+
+#specTab {
+  margin-left: 25px;
+  font-size: 15px;
+}
+
+#measTab {
+  font-size: 15px;
+}
+
+#specTab1 {
+  margin-left: 25px;
+  font-size: 15px;
+}
+
+#measTab1 {
+  font-size: 15px;
+}
+
+#backBtn {
+  margin-left: 20px;
+  font-family: proxima-nova, sans-serif !important;
+  font-size: 15px;
+}
+
+#backBtn1 {
+  margin-left: 20px;
+  font-family: proxima-nova, sans-serif !important;
+  font-size: 15px;
+  font-weight: 900
+}
+
+#backBtn2 {
+  margin-left: 20px;
+  font-family: proxima-nova, sans-serif !important;
+  font-size: 15px;
+  font-weight: 900
+}

@@ -1,7 +1,16 @@
 import React from "react";
+import {Row} from "../Grid";
+import Button from "../Button";
 
 const Measure = props => (
   <div>
+    <Button id="backBtn1" onClick={props.homeButton}><i className="fa fa-caret-left backBtn"></i> Back</Button>
+    <Row>
+      <div className="specTab">
+      <Button id="specTab1" onClick={props.techButton}>Measurements</Button>
+      <Button id="measTab1" onClick={props.specButton}>Device Specifications</Button>
+      </div>
+    </Row>
     <table>
       <thead>
         <tr>
