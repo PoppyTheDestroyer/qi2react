@@ -216,8 +216,14 @@ body {
   margin-right: 80px;
   font-size: 15px;
   float: right !important;
+  margin-bottom: 10px;
+
 }
 
 #mobNav {
   float: right !important;
+}
+
+#navbar-collapse-1 {
+  margin-top: 80px;
 }
