@@ -206,9 +206,10 @@ body {
 }
 
 #btn1, #btn2, #btn3, #btn4, #btn5 {
-  padding: 5px !important;
+  padding: 10px !important;
   border-radius: 0;
   min-width: 80px !important;
+  background-color: #fff !important;
 }
 
 #burger {
